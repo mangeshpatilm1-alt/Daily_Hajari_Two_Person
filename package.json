@@ -1,0 +1,9 @@
+{
+  "name": "daily-hajari-two-person",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Two-person attendance and separate advance tracker",
+  "scripts": {"build": "echo Static app ready"},
+  "dependencies": {"@capacitor/android": "^7.4.3", "@capacitor/core": "^7.4.3"},
+  "devDependencies": {"@capacitor/cli": "^7.4.3"}
+}

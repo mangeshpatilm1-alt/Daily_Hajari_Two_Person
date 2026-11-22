@@ -1,14 +1,14 @@
- name: Build Daily Hajari 2 APK
+name: Build Daily Hajari 2 APK
 
 on:
   workflow_dispatch:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
